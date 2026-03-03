@@ -2,9 +2,11 @@ body{
     background-color: rgb(255, 255, 255);
 }
 h1{
-    display: flex 1 1 1;
     font-family: 'Courier New', Courier, monospace;
-    background-color: aquamarine;
-    margin-top: 3vh;
-    margin-right: 1vh;
+    background-color: rgb(117, 187, 233);
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    margin: -1%;
+
 }

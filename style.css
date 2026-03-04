@@ -1,12 +1,19 @@
 body{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(42, 55, 66);
 }
 h1{
     font-family: 'Courier New', Courier, monospace;
-    background-color: rgb(117, 187, 233);
-    height: 100px;
+    background-color: rgb(56, 92, 222);
+    height: 7vh;
     display: flex;
     justify-content: center;
     margin: -1%;
-
+    color: white;
+    padding-top: 5vh;
+    animation-name: myAnimation;
+    animation-duration: 2s;
+}
+@keyframes myAnimation {
+  from {height: 0vh; background-color: antiquewhite;}
+  to {height: 7vh; background-color: rgb(56, 92, 222);}
 }

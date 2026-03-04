@@ -1,9 +1,9 @@
 body{
-    background-color: rgb(42, 55, 66);
+    background-color: rgb(63, 77, 88);
 }
 h1{
-    font-family: 'Courier New', Courier, monospace;
-    background-color: rgb(56, 92, 222);
+    font-family: Verdana;
+    background-color: rgb(44, 81, 216);
     height: 7vh;
     display: flex;
     justify-content: center;
@@ -16,4 +16,12 @@ h1{
 @keyframes myAnimation {
   from {height: 0vh; background-color: antiquewhite;}
   to {height: 7vh; background-color: rgb(56, 92, 222);}
+}
+img{
+    border-radius: 20%;
+    margin-top: 5vh;
+    height: 24vh;
+    width: auto;
+    border: 1px solid #ccc;
+
 }

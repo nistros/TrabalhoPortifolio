@@ -118,16 +118,16 @@ h2{
 p3{
     font-family: Verdana;
     display: flex;
-    justify-content: left;
     margin-top: 3vh;
-    position: relative;
-    top: 15vh;
+    position: fixed;
+    top: 65vh;
     color: white;
     background-color: #0000003f;
-    max-width: 28%;
+    max-width: 40%;
     font-size: 2vh;
-
-
+    padding: 1vh; /* opcional, dá um respiro interno */
+    text-align: left;
+    right: 0; /* encosta na borda direita da tela */
 }
 .imgtela{
     height: 15vh;

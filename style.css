@@ -115,24 +115,24 @@ h2{
     left: 30%;
     bottom: 33vh;
 }
-p3{
-    font-family: Verdana;
-    display: flex;
-    margin-top: 3vh;
-    position: fixed;
-    top: 65vh;
-    color: white;
-    background-color: #0000003f;
-    max-width: 40%;
-    font-size: 2vh;
-    padding: 1vh; /* opcional, dá um respiro interno */
-    text-align: left;
-    right: 0; /* encosta na borda direita da tela */
-}
+
 .imgtela{
     height: 15vh;
     border: 1dvh solid #ccc;
     border-radius: 10%;
     margin-top: 18vh;
     position: relative;
+}
+.p3{
+    display: flex;
+    font-family:Verdana ;
+    color: white;
+    font-size: 2vh;
+    background-color: #0000003f;    
+    border-radius: 1vh;
+    left: 133vh;
+    position: relative;
+    justify-content: center;
+    max-width: 28%;
+    bottom: 10vh;
 }
